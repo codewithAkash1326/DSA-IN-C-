@@ -1,10 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-int fact(int n){
-    if
-}
-
+ 
 
 
 
