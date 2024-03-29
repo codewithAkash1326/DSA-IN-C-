@@ -6,14 +6,14 @@ string intToRoman(int num) {
 
         int value[]={1000,900,500,400,100,90,50,40,10,9,5,4,1};
 
-        string ans="";
+        string an="";
         for(int i=0;i<13;i++){
             while(num>=value[i]){
-                ans+=symbol[i];
+                an+=symbol[i];
                 num=num-value[i];
             }
         } 
-        return ans;      
+        return an;      
     }
 
     
