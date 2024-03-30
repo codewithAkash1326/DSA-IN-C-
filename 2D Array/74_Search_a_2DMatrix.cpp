@@ -13,13 +13,13 @@ using namespace std;
         while(s<=e){
             int mid=s+(e-s)/2;
 
-            int ele = matrix[mid/col][mid%col];
+            int element = matrix[mid/col][mid%col];
 
-            if(ele==target){
+            if(element==target){
                 return true;
             }
 
-            else if(target<ele){
+            else if(target<element){
                 e=mid-1;
             }
             else{
